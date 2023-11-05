@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <img class="logo" src="tu-imagen.png" alt="Logo de la Empresa">
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="rules.html">rules</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="https://discord.gg/MSWzBGqPVV">Discord</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <h1>Generador de Cuentas</h1>
+  <form id="accountForm">
+    <label for="categoria">Categoria:</label>
+    <select name="categoria" id="categoria">
+      <option value="crunchyroll">crunchyroll</option>
+      <option value="ipvanish">ipvanish</option>
+      <option value="starplus">star+</option>
+      <option value="tester">tester</option>
+      <!-- Agrega más categorías según tus necesidades -->
+    </select>
+    <button type="button" id="generateButton">Generar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

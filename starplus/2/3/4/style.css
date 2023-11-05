@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #3498db, #e74c3c);
+  background-size: cover;
+  /* Ajusta el tamaño del degradado para que cubra todo el fondo */
+  background-attachment: fixed;
+  /* Fija el fondo para que no se desplace con el contenido */
+  font-family: Arial, sans-serif;
+}
+
+
+/* Estilos del título */
+h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+}
+
+/* Estilos del botón "Next" */
+#nextButton {
+    background-color: #e74c3c; /* Color de fondo */
+    color: #fff; /* Texto en blanco */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto; /* Centra horizontalmente y agrega espacio en la parte superior y inferior */
+    display: block; /* Convierte el botón en un elemento de bloque para centrar horizontalmente */
+}
+
+#nextButton:hover {
+    background-color: #c0392b; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos del contenido */
+.content {
+    text-align: center;
+    margin: 10px auto; /* Márgenes superior e inferior reducidos y centrados horizontalmente */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 10px; /* Espaciado interno reducido */
+    max-width: 400px; /* Anchura máxima para limitar el espacio ocupado */
+}
+
+/* Estilos del contador */
+.countdown {
+    font-size: 24px;
+}
+
+/* Estilos del enlace "Next 1/4" */
+#nextLink {
+    background-color: #e74c3c; /* Color de fondo */
+    color: #fff; /* Texto en blanco */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto; /* Centra horizontalmente y agrega espacio en la parte superior y inferior */
+    display: block; /* Convierte el botón en un elemento de bloque para centrar horizontalmente */
+    text-align: center; /* Centra horizontalmente el texto dentro del elemento */
+    line-height: 1.6; /* Controla el espacio entre líneas para centrar verticalmente */
+}
+
+#nextLink:hover {
+    background-color: #c0392b; /* Cambio de color al pasar el mouse */
+}
